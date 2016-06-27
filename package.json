@@ -1,0 +1,30 @@
+{
+  "name": "ig-scraper",
+  "description": "API to scrape some data from IG",
+  "homepage": "https://github.com/bponomarenko/ig-scraper",
+  "version": "1.0.0",
+  "author": "Borys Ponomarenko <bponomarenko@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bponomarenko/ig-scraper.git"
+  },
+  "main": "./dist/ig-scraper.js",
+  "scripts": {
+    "build": "webpack --config=conf/webpack.config.js --progress --color",
+    "dev": "webpack --config=conf/webpack.config.js --color --debug",
+    "try": "node ./dev/test.js"
+  },
+  "dependencies": {
+    "needle": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1",
+    "webpack-node-externals": "^1.2.0"
+  },
+  "license": "LICENSE"
+}
