@@ -1,13 +1,9 @@
-
 language: node_js
 node_js:
-  - 4
-
-notifications:
-  email: true
-
+- 4
 script:
-  - npm run build
-
+- npm run build
 deploy:
-  - npm publish
+  provider: npm
+  api_key:
+    secure: DymQrF9tFK6eRZ4D40DcTtrZIapSztpEFfR3SnmCZTd0VGPKitPFTtSGV5uaL+vh/1Nkc0vTq8OohJrEMZXdkYXryhbt6RL5HIuHpvjMHWm7j4WjYM7VcNdSRI10g1KT70tO1XnGlxM2cNJbqN1/PiAjQiQ5Gagz/00R4ZpLSEtDv8ddTKc4ADBjNFmrWNj+GfK+P05UFN7WmAJObz6CKbrCGjkvf6D/Vb5fKpCZZXuNCphfNaeSZI3hiWpd9nloSt9sEvq6RQdk2y3bM98e5vYAmWEGBjUxwk6/cCXfZ7KK9qmwFmO69wBR8C/WUBMcbMFKf3FU6HTeanC0wKUGJqYf88hfvZoD9F6v0Cb8EhDTwcX0+sPQ+qKgNI1u4s0k5dmw2xZmXftdNrPI/CwN0aO3c8fJ3QHjzdYGh2wSlzVGZgbc6O1bCDfI2UW25pm6MeSWrWqExr2Zr+4rrd5rSU0YAW1uXkzE7UxuCt89JMCmgBrNDSEV38BSHv3yWNaDBuJA++efotfCacp8EwkqNHGWdrEUrGuhKcSa4B6WqfCqwQ9k63hcpv0Ps1PXTFVa5YMh3r8mGcMQjXIKg0tiXUM6a0CMsccrEU898c4qO3bgWIyBMmZldOTrZg2R3hyj0JT758wluv3MqKzxon/nt3/FXAY4m/b3WNKG7a2HLSc=
