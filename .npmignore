@@ -2,6 +2,7 @@
 .gitignore
 .npmignore
 .travis.yml
+.npmrc
 node_modules
 conf
 lib
