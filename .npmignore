@@ -6,5 +6,5 @@
 node_modules
 conf
 lib
-test
+dev
 index.js
