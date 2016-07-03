@@ -2,7 +2,7 @@
   "name": "ig-scraper",
   "description": "API to scrape some data from IG",
   "homepage": "https://github.com/bponomarenko/ig-scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Borys Ponomarenko <bponomarenko@gmail.com>",
   "repository": {
     "type": "git",
