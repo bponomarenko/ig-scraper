@@ -13,9 +13,10 @@
     "build": "webpack --config=conf/webpack.config.js --progress --color",
     "dev": "webpack --config=conf/webpack.config.js --color --debug",
     "version": "npm --no-git-tag-version version",
-    "try": "node ./dev/test.js"
+    "try": "npm run build && DEBUG=ig-scraper node ./dev/test2.js"
   },
   "dependencies": {
+    "debug": "^2.2.0",
     "needle": "^1.0.0"
   },
   "devDependencies": {
