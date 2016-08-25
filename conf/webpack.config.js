@@ -8,7 +8,7 @@ const config = {
     debug: debug,
     context: path.resolve(__dirname, '..'),
     target: 'node',
-    entry: ['babel-polyfill', './index.js'],
+    entry: ['./index.js'],
     output: {
         path: './dist',
         libraryTarget: 'commonjs',
